@@ -7,5 +7,10 @@ function Book(title, author, pages){
 }
 
 function addBookToLibrar(){
-    
+    let title = prompt("enter book title");
+    let author = prompt("Enter book author");
+    let pages = prompt("Enter book pages in numbers");
+    let book = new Book
+    (title, author, pages);
+    myLibrary.push(book);
 }
