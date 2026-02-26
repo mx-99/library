@@ -7,7 +7,20 @@
     <script src="app.js" defer></script>
 </head>
 <body>
-    <h1>library</h1>
-    <div class="container"></div>
+    <h1>Books</h1>
+    <button id="show-dialog">Add new book</button>
+    <dialog id="my-dialog">
+        <form method="dialog">
+            <input type="text" id="title" placeholder="Book Title" required>
+            <input type="text" id="author" placeholder="Book Author" required>
+            <input type="phone" id="pages" placeholder="Number of Pages" required>
+            <label for="read">Read</label>
+            <input type="checkbox" id="read">
+            <button type="submit" id="save">save</button>
+        </form>
+    </dialog>
+    <div class="container">
+
+    </div>
 </body>
 </html>
